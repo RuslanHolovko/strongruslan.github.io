@@ -82,7 +82,9 @@ nav ul li a.inner:hover{
 }
 
 nav ul li.project:hover{
-	animation: uit .5s forwards;
+	-webkit-animation: uit .5s forwards; 
+	  -moz-animation: uit .5s forwards;	
+		    animation: uit .5s forwards;
 }
 
 
@@ -123,7 +125,9 @@ a:hover:after{
   height: 100%;
   width: 100%;
   opacity: 1;
-  animation: fill .3s forwards ;
+  -webkit-animation: fill .3s forwards ;
+     -moz-animation: fill .3s forwards ;
+       animation: fill .3s forwards ;
   z-index: -1;
 }
 
