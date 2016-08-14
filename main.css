@@ -133,7 +133,7 @@ a:hover:after{
 
 
 
-@-webkit-keyframes fill {
+@keyframes fill {
   0% {
   	opacity: .1;
     width: 0;
